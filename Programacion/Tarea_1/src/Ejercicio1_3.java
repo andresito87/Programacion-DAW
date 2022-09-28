@@ -8,7 +8,7 @@ public class Ejercicio1_3 {
 
         // Declaración de variables
         int hora, minuto, segundo;
-        boolean horaValida;
+        boolean esHoraValida;
         Scanner sc = new Scanner(System.in);
 
         // Solicitud de datos
@@ -25,7 +25,7 @@ public class Ejercicio1_3 {
         System.out.println();
 
         // Procesamiento de datos
-        horaValida = hora >= 0
+        esHoraValida = hora >= 0
                 && hora <= 23
                 && minuto >= 0
                 && minuto <= 59
@@ -35,6 +35,6 @@ public class Ejercicio1_3 {
         // Mostrar resultados
         System.out.println("RESULTADO");
         System.out.println("----------------------");
-        System.out.println("La hora introducida es válida: " + horaValida);
+        System.out.println("La hora introducida es válida: " + esHoraValida);
     }
 }
