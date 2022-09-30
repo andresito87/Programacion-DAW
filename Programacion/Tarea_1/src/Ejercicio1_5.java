@@ -28,15 +28,23 @@ public class Ejercicio1_5 {
         System.out.println();
 
         // Procesamiento de datos
-        segundoSiguiente = (segundo + 1) % 60;
-        minutoSiguiente = (minuto + (segundo + 1) / 60) % 60;
-        horaSiguiente = (hora + (minuto + (segundo + 1) / 60) / 60) % 24;
+        segundoSiguiente = (segundo + 1) % 60; // Si el segundo es 59, el siguiente será 0 y si no, será el segundo + 1
+        minutoSiguiente = (minuto + (segundo + 1) / 60) % 60; // Si el minuto es 59, el siguiente será 0 y si no, será
+                                                              // el minuto + 1
+        horaSiguiente = (hora + (minuto + (segundo + 1) / 60) / 60) % 24; // Si la hora es 23, la siguiente será 0 y si
+                                                                          // no, será la hora + 1
 
         // Mostrar resultados
         System.out.println("RESULTADO");
         System.out.println("----------------------");
-        System.out.println("Siguiente hora:" + horaSiguiente);
-        System.out.println("Siguiente minuto:" + minutoSiguiente);
-        System.out.println("Siguiente segundo:" + segundoSiguiente);
+        System.out.println("Siguiente hora:" + (horaSiguiente < 10
+                ? "0" + horaSiguiente
+                : horaSiguiente)); // Si la hora es menor que 10, se añade un 0 delante
+        System.out.println("Siguiente minuto:" + (minutoSiguiente < 10
+                ? "0" + minutoSiguiente
+                : minutoSiguiente)); // Si el minuto es menor que 10, se añade un 0 delante
+        System.out.println("Siguiente segundo:" + (segundoSiguiente < 10
+                ? "0" + segundoSiguiente
+                : segundoSiguiente)); // Si el segundo es menor que 10, se añade un 0 delante
     }
 }
