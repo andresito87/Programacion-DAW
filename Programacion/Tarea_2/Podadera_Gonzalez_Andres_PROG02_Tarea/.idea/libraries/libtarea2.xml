@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libtarea2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/libtarea2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

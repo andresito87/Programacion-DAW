@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libtarea2_javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/libtarea2_javadoc/type-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libtarea2_javadoc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libtarea2_javadoc/package-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
