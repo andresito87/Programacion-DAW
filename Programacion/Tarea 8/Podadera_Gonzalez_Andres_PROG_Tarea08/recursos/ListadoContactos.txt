@@ -1,0 +1,6 @@
+Manuel Pérez Pérez;C/Sevilla,nº5,Aguadulce;123321123;1980-01-01;amigos
+Piedad Sánchez Gil;C/Granada,nº7,Aguadulce;666777888;1990-12-01;familia
+Raúl Gómez Medina;C/Málaga,nº10,Aguadulce;999111222;1995-11-03;trabajo
+Vera Aznar Aznar;C/Cádiz,nº3,Aguadulce;321123456;1998-03-28;amigos
+Esther Diaz Ruiz;C/Huelva,nº8,Aguadulce;999888777;1999-02-28;amigos
+Luz Sanz Ortiz;C/Córdoba,nº10,Aguadulce;567765567;2000-01-05;familia

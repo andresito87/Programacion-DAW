@@ -1,0 +1,40 @@
+<ejercicio3.CAgendaContactos>
+  <personas>
+    <ejercicio3.CPersona>
+      <identificador>1</identificador>
+      <nombre>Manuel Pérez Pérez</nombre>
+      <tipoContacto>amigos</tipoContacto>
+      <direccion>C/Sevilla,nº5,Aguadulce</direccion>
+      <telefono>123321123</telefono>
+      <fechaNacimiento>1980-01-01</fechaNacimiento>
+      <aficiones>
+        <string>cocinar</string>
+      </aficiones>
+    </ejercicio3.CPersona>
+    <ejercicio3.CPersona>
+      <identificador>2</identificador>
+      <nombre>Piedad Sánchez Gil</nombre>
+      <tipoContacto>familia</tipoContacto>
+      <direccion>C/Granada,nº7,Aguadulce</direccion>
+      <telefono>666777888</telefono>
+      <fechaNacimiento>1990-12-01</fechaNacimiento>
+      <aficiones>
+        <string>lectura</string>
+        <string>escritura</string>
+      </aficiones>
+    </ejercicio3.CPersona>
+    <ejercicio3.CPersona>
+      <identificador>3</identificador>
+      <nombre>Raúl Gómez Medina</nombre>
+      <tipoContacto>trabajo</tipoContacto>
+      <direccion>C/Málaga,nº10,Aguadulce</direccion>
+      <telefono>999111222</telefono>
+      <fechaNacimiento>1995-11-03</fechaNacimiento>
+      <aficiones>
+        <string>bailar</string>
+        <string>viajar</string>
+        <string>hacer deporte</string>
+      </aficiones>
+    </ejercicio3.CPersona>
+  </personas>
+</ejercicio3.CAgendaContactos>

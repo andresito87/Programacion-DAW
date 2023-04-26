@@ -1,0 +1,3 @@
+amigos;foto.png
+familia;foto4.png
+trabajo;foto3.png
