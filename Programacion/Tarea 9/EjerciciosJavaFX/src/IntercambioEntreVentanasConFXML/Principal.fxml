@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="IntercambioEntreVentanasConFXML.PrincipalController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="60" minHeight="16" minWidth="69" text="Principal de personas" />
+        <Button fx:id="button" layoutX="126" layoutY="90" onAction="#nuevaVentana" text="Crear persona" />
+        <Button fx:id="btn_listar" layoutX="126.0" layoutY="137.0" mnemonicParsing="false" onAction="#listarPersonas" text="Listar" />
+    </children>
+</AnchorPane>
